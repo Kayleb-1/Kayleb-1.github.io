@@ -291,7 +291,7 @@ input, select, textarea {
 	hr {
 		border: 0;
 		border-bottom: solid 1px #ffffff;
-		margin: 2.75rem 0;
+		margin: 0.3rem 0;
 	}
 
 	.align-left {
@@ -1665,4 +1665,46 @@ input, select, textarea {
 
 		body.is-preload #footer {
 			opacity: 0;
+		}
+
+		.container {
+			display: flex;
+			align-items: flex-start; /* Align items at the start of the container */
+		}
+
+		#smallTitle{
+			margin-bottom: 20px;
+			font-size: 18px;
+		}
+		
+		article#about {
+			width: 70%; /* Adjust the width percentage as per your requirement */
+			left: -17%;/* This centers the article horizontally */
+
+
+			/* You can also add other styles like padding, border, etc. here */
+		}
+		
+		.sideSection {
+			position: relative;
+			margin: auto;
+			
+			left: -1%;
+			line-height: 30px;
+			width: 30%; /* Adjust the width as needed */
+			
+			text-align: center;
+			
+			
+			
+			padding: 7px;
+			background-color: #ffffff85;
+			color: black;
+			border-radius: 3px;
+			
+		}
+		
+		.mainContent {
+			width: 80%; /* Adjust the width as needed */
+			padding: 20px;
 		}
