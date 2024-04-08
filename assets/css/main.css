@@ -1271,7 +1271,7 @@ input, select, textarea {
 		text-align: center;
 
 		position: absolute;
-		top:22%
+		top:24%
 	}
 
 		#header > * {
@@ -1331,7 +1331,7 @@ input, select, textarea {
 				-webkit-transition-delay: 0.25s;
 				-ms-transition-delay: 0.25s;
 				transition-delay: 0.25s;
-				padding: 2rem 1rem;
+				padding: 3rem 1rem;
 				max-height: 40rem;
 				overflow: hidden;
 				align-items: flex-start;
